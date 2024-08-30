@@ -40,5 +40,5 @@ body {
 .gallery::after {
   content: "";
   width: 350px;
-}
+
 
