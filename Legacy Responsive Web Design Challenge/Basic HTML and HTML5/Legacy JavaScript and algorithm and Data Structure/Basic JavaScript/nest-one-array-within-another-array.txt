@@ -1,2 +1,0 @@
-// Only change code below this line
-const myArray = [["Bulls",10], ["White",20]];

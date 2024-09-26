@@ -1,2 +1,0 @@
-var myFirstName="First";
-var myLastName="last";
