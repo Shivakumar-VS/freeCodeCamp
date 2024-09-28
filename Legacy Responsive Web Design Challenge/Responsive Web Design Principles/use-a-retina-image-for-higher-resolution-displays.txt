@@ -1,0 +1,5 @@
+<style>
+img{heigh: 100px;width: 100px;}
+</style>
+
+<img src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
