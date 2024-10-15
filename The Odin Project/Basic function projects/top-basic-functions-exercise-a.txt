@@ -1,0 +1,11 @@
+function addOrSubtract(n)
+{
+  if(n<10)
+  {
+    return n+7;
+  }
+  else
+  {
+    return n-3;
+  }
+}

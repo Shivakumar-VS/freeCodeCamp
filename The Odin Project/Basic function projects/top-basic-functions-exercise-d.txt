@@ -1,0 +1,7 @@
+function lastLetter(str)
+{
+  if (!str || str.length === 0) {
+        return "";
+    }
+    return str.charAt(str.length - 1);
+}
