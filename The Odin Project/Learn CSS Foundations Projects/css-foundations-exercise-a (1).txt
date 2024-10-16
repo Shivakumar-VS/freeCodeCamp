@@ -1,0 +1,47 @@
+** start of undefined **
+
+
+<!-- file: index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+ <title>Exercise A</title>
+ <link rel= "stylesheet" href= "styles.css">
+ <style>
+   p
+   {
+     font-size: 18px;
+     color: white;
+   }
+ </style>  </head>
+  <body>
+    <div>This is my first CSS</div>
+<p>
+  I started my very fast styling with this assignment/project. I am having fun doing it and I hope to learn more.
+</p>
+<button style="background-color:orange;   font-size:18px;">Next</button>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* file: styles.css */
+/* styles.css */
+ div{
+   
+background-color:red;
+  color:white;
+ font-weight:bold;
+  font-size:32px;
+  text-align:center;
+}
+p{
+  background-color:green;
+  color:white;
+  font-size: 18px;
+}
+
+** end of undefined **
+

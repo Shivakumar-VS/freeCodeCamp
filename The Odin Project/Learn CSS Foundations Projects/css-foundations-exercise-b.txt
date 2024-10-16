@@ -1,0 +1,55 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p class="odd">Number 1 - I'm a class!</p>
+    <div id="second">Number 2 - I'm one ID.</div>
+    <p class="odd third" id="hlo">Number 3 - I'm a class, but cooler!</p>
+    <div id="two" class="fourth">Number 4 - I'm another ID.</div>
+    <p class="odd">Number 5 - I'm a class!</p>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+/* Styling for all odd-numbered elements */
+.odd {
+  background-color: yellow;
+}
+
+/* Styling the second element (using an ID) */
+#second {
+  color: blue;
+  font-size: 36px;
+}
+
+/* Styling the third element (using a class for font-size) */
+.third {
+  font-size: 24px;
+}
+
+/* Styling the fourth element */
+.fourth {
+  font-size: 24px; /* Font-size controlled by class */
+}
+
+#two {
+  background-color: red;
+  font-weight: bold; /* Color and weight controlled by ID */
+}
+
+
+** end of undefined **
+
