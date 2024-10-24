@@ -1,0 +1,1 @@
+//OUTPUT : Console.WriteLine($"My value: {value}");
