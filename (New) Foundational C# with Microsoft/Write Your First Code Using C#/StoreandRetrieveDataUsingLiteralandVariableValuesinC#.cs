@@ -1,1 +1,0 @@
-//OUTPUT : decimal x = 12.3m;
