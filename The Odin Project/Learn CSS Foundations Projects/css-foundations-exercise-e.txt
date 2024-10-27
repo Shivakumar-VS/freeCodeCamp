@@ -1,0 +1,34 @@
+** start of undefined **
+
+.container .text{
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align : center;
+}
+
+** end of undefined **
+
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Descendant Combinator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div class>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+

@@ -1,0 +1,33 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grouping Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button  class="first-element">Click Me!</button>
+    <button class="second-element">No, Click Me!</button>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.first-element {
+  background-color: black;
+   color: white;
+}
+
+.first-element, .second-element {
+  font-size: 28px;
+   font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+
+
+
+** end of undefined **
+
