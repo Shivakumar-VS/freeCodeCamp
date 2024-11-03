@@ -1,0 +1,2 @@
+ // Change this line
+let yourArray = [42, "hello", true, 3.14, "world"];
