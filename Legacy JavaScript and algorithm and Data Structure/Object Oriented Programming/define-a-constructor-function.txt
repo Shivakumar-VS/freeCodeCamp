@@ -1,0 +1,6 @@
+function Dog()
+{
+  this.name = "Local";
+  this.color="black";
+  this.numLegs = 4;
+}
