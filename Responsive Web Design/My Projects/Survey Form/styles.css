@@ -1,0 +1,147 @@
+body {
+    background-color: #287FF0; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    margin: 3.2em auto 0;
+    max-width: 680px;
+    min-width: 460px;
+    width: 80vw;
+}
+
+header {
+    margin: 0 0 5em 0;
+    padding: 0 8px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: auto;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#title, #description {
+    color: white;
+    margin: 0 0 0.5em;
+    text-align: center;
+}
+
+#title {
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#survey-form {
+    background-color: #0c8ee4;
+    margin: auto;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    background-color: #4a4c4c;
+    font-size: 1.1rem;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none; 
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin: 0.6em 0;
+}
+
+input, select, textarea {
+    accent-color: #78b9d1;
+    background-color: #f4f4f9; 
+    border: 2px solid #c1c1c1; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-width: 2.1em;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2aacd7;
+    outline: none;
+}
+
+#form-group {
+    margin: 1.85em 0 1em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    margin: 02px 5px 0 5px;
+    vertical-align: middle;
+    width: 1.1em;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    margin: 0 0 0 0.6em;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    display: block;
+    font-size: 1rem;
+    margin: 15px auto 0;
+    min-width: 200px;
+    height: 2rem;
+    width: 20vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #2aacd7; 
+}
+
+button[type="submit"]:hover {
+    background-color: #2797b3; 
+    transform: scale(1.05); 
+}
+
+button[type="reset"] {
+    background-color: #093165; 
+}
+button[type="reset"]:hover {
+    background-color: #041c3f; 
+    transform: scale(1.05);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(42, 172, 215, 0.5); 
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div class="image">
+        <image src="Flipkart-Emblem.png" class="img"><h1 id="title"><strong>FlipCart</strong></h1>
+        </div>
+        <p id="description"><b>Thank you for taking the time to help us improve the platform.</b></p>
+    </header>
+    <form id="survey-form" value="">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <div id="form-group">
+            <label id="name-label" for="name">Name
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            </label>
+            <label id="email-label" for="email">Email
+                <input type="email" id="email" placeholder="Enter your Email" required>
+            </label>
+            <label id="number-label" for="number" type="number">Age
+                <input type="number" name="age" min="18" max="120" placeholder="Enter your Age" required>
+            </label>
+            <label id="mobile-number" for="number">Mobile number
+    <input type="number" id="number" name="number" pattern="\d{10}" max="10" min="10" placeholder="Enter your Mobile Number" required>
+</label>
+
+            <label id="Adress-label" for="address">Address
+                <input type="text" id="Address" placeholder="Street, State, Country, PinCode">
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Web User Experience</legend>
+        <p class="paragraph">"Please share your feedback by selecting the checkboxes that best describe your experience with our website."</p>
+        <div class="info">
+            <label id="service">
+    <input type="checkbox" id="service-1" value="customer_service_helpful"> Was the customer service helpful when you contacted them?
+</label>
+<label id="product">
+    <input type="checkbox" id="product-1" value="product_details_accurate"> Were the product details (description, images) accurate?
+</label>
+<label id="delay">
+    <input type="checkbox" id="delay-1" value="delay_experience"> Did you experience any delays in customer support response?
+</label>
+<label id="checkout">
+    <input type="checkbox" id="checkout-1" value="checkout_process_easy"> Was the checkout process easy to follow?
+</label>
+<label id="payment">
+    <input type="checkbox" id="payment-1" value="payment_issues"> Did you experience any issues with payment?
+</label>
+<label id="reviews">
+    <input type="checkbox" id="reviews-1" value="product_reviews_helpful"> Did you find the product reviews helpful?
+</label>
+<label id="satisfied">
+    <input type="checkbox" id="satisfied-1" value="website_mobile_version_satisfied"> Were you satisfied with the website's mobile version?
+</label>
+
+        </div>
+        <div class="form-group">
+            <label for="dropdown">When was the last time you used the service?
+                    <select id="dropdown">
+                        <option value="" disabled selected>Select One</option>
+                        <option value="1">Today</option>
+                        <option value="2">This Week</option>
+                         <option value="3">This Month</option>
+                        <option value="4">This Year</option>
+                    </select>
+              </label>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Service Feedback</legend>
+            <div class="form-group">
+            <p class="normal-text">How do you rate the selected service?</p>
+            <label for="good">
+                <input type="radio" id="good" name="rating" value="good" checked> Good &#x1f600;
+            </label>
+            <label for="average">
+                <input type="radio" id="average" name="rating" value="average"> Average &#x1f611;
+            </label>
+            <label for="bad">
+                    <input type="radio" id="bad" name="rating" value="bad"> Bad &#x1f620;
+             </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Any changes or potential improvements.
+                        <textarea id="comments" name="comments" cols="30" rows="4"
+                            placeholder="Enter your comment here..."></textarea>
+                    </label>
+                </div>
+            </fieldset>
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset" onclick="alert('Reset completed..!')">Reset</button>
+        </form>
+</main>
+</body>
+</html>
