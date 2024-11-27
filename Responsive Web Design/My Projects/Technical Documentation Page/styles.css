@@ -1,0 +1,180 @@
+body {
+    min-width: 290px;
+   
+  }
+  
+  #main-doc {
+      position: relative;
+      margin-left: 290px;
+      margin-top: 20px;}
+  
+  header {
+    display: inline;
+  }
+  
+  h1 {
+    font-family: monospace;
+    font-size: 2.2rem;
+    padding-left: 20px;
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .green {
+    color: #009900
+  }
+  
+  .blue {
+    color: #0040ff;
+  }
+  
+  .pink {
+    color: #ff3399
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .turquoise {
+    color: turquoise;
+  }
+  
+  .orange {
+    color: hsl(36, 100%, 50%);
+  }
+  
+  .purple {
+    color: rgb(163, 26, 255);
+  }
+  
+  #navbar { 
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Chakra Petch, serif;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover {
+    color: #009900;
+  }
+  
+  a#nav-css:hover {
+    color: #0040ff;
+  }
+  
+  a#nav-css2:hover {
+    color: #0040ff;
+  }
+  
+  a#nav-css3:hover {
+    color: #0040ff;
+  }
+  
+  a#nav-css4:hover {
+    color: #0040ff;
+  }
+  
+  a#nav-css5:hover {
+    color: #0040ff;
+  }
+  
+  a#nav-css6:hover {
+    color: #0040ff;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80%;
+    font-family: monospace;
+    font-size: 1.1rem
+  }
+  
+  #navbar li {
+    color: #000000;
+    list-style: none;
+    position: relative;
+    width: 100%;}
+  
+    header {
+      color: black;
+      margin: 15px;
+      font-size: 1.8em;
+      font-weight: bold;
+      text-align: left;
+      font-family: monospace;
+      display: block;
+    }
+  
+    p {
+      margin-left: 15px;
+      font-family: Georgia;
+    }
+  
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #00cc00;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .css-code {
+    color: #0060ff;
+  }
+  
+  dl {
+    padding-left: 20px;
+  }
+  
+  li {
+    font-family: Georgia;
+  }
+  
+  .form-list {
+    margin: 5px 10px;
+  }
+  
+  .credit {
+    font-size: 0.8rem;
+    text-align: right;
+    color: rgba(168, 168, 168, 0.9)
+  }
+  
+  @media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    #main-doc {
+      margin-left: -10px;
+    }
+      #navbar{
+      height: 100%;
+      position: static;
+      width: 50%;
+      min-width: 50%;
+    }}
+    

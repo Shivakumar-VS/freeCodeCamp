@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <link rel="styleshet" href="styles.css">
+    <meta charset="utf-8">
+    <meta nmae="viewport" content="width=device-width, initial-scale=1.0">
+    </head><body>
+  <nav id="navbar">
+    <header><h1><span class="green">&#10100;</span>HTML & CSS<span class="blue">&#10101;</span></h1></header>
+    <ul>
+      <li><a class="nav-link" href="#introduction">introduction</a></li>
+      <li><a class="nav-link"  href="#what_is_HTML?">what is HTML?</a></li>
+      <li><a class="nav-link"  href="#HTML_syntax">HTML syntax</a></li>
+      <li><a class="nav-link"  href="#HTML_document_structure">HTML document structure</a></li>
+      <li><a class="nav-link"  href="#HTML_headings_and_paragraphs">HTML headings and paragraphs</a></li>
+      <li><a class="nav-link"  href="#HTML_links_and_images">HTML links and images</a></li>
+      <li><a class="nav-link"  href="#HTML_lists">HTML lists</a></li>
+      <li><a class="nav-link"  href="#HTML_forms">HTML forms</a></li>
+      <li><a class="nav-link" id= "nav-css"  href="#what_is_CSS?">what is CSS?</a></li>
+      <li><a class="nav-link" id= "nav-css2" href="#CSS_syntax_and_selectors">CSS syntax and selectors</a></li>
+      <li><a class="nav-link" id= "nav-css3"  href="#CSS_box_model">CSS box model</a></li>
+      <li><a class="nav-link" id= "nav-css4" href="#CSS_colours_and_backgrounds">CSS colours and backgrounds</a></li>
+      <li><a class="nav-link" id= "nav-css5" href="#CSS_text_formatting">CSS text formatting</a></li>
+      <li><a class="nav-link" id= "nav-css6" href="#CSS_layout">CSS layout</a></li>
+      <br><br>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>
+        introduction
+      </header>
+      <article>
+        <p>HTML and CSS are two foundational technologies used to create websites and web applications.</p>
+        <p>Together, HTML and CSS form the foundation of web design and development. HTML defines the structure and content of a web page, while CSS defines the appearance and layout of the page. By using these technologies together, web developers can create attractive, functional, and accessible websites that work across a variety of devices and platforms.</p>
+      </article>
+    </section>
+    <section class="main-section" id="what_is_HTML?">
+      <header>
+        what is HTML?
+      </header>
+      <article>
+        <p>HTML, or Hypertext Markup Language, is the standard markup language used to create the structure and content of web pages.</p>
+        <p> HTML defines the various elements of a web page, such as headings, paragraphs, images, links, and forms. HTML uses a series of tags to define each element, and these tags are interpreted by web browsers to display the content of the page.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_syntax">
+      <header>
+        HTML syntax
+      </header>
+      <article>
+        <p>HTML elements are the building blocks of web pages. Each element represents a different type of content to be displayed on the webpage, such as text, images, links, or forms.</p><p>HTML elements are defined using tags, which are enclosed in angle brackets.</p>
+        <p>For example, the <span class="green">&lt;p&gt;</span> tag is used to define a paragraph of text, and the <span class="green">&lt;img&gt;</span> tag is used to insert an image into a web page</p>
+        <p>HTML tags can also include attributes, which provide additional information about the element. For example, the <span class="green">&lt;a&gt;</span> tag, which is used to create a link, can include attributes such as href, which specifies the URL of the destination page.</p>
+        <p>HTML attributes are defined using name-value pairs, separated by an equals sign. For example, the href attribute for a link might look like this:</p>
+        <code>&lt;a href="https://www.example.com"&gt;Example Website&lt;/a&gt;</code>
+        <p>In this example, the text between the opening and closing <span class="green">&lt;a&gt;</span> tags is the visible link text, which in this case is "Example Website".</p>
+        <p>By using a variety of HTML elements, tags, and attributes, web developers can create structured and well-formatted web pages that are easy to read and navigate. HTML provides a standardized way to define the content of a web page, which helps ensure that it can be accessed and displayed correctly across a variety of devices and platforms.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_document_structure">
+      <header>
+        HTML document structure
+      </header>
+      <article>
+        <p>The HTML document structure, also known as the HTML skeleton, defines the basic structure of an HTML document. It consists of several parts, including the document type declaration, the HTML element, the head element, and the body element.</p>
+<p>Here is an example of an HTML document structure:</p>
+<code>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;h1&gt;Heading&lt;/h1&gt;
+  &lt;p&gt;Paragraph&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+</code>
+<p>The <span class="green">&lt;!DOCTYPE html&gt;</span> declaration at the beginning of the document tells the browser that the document is an HTML5 document. The <span class="green">html</span> element encloses the entire document, and contains two child elements: the <span class="green">head</span> element and the <span class="green">body</span> element.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_headings_and_paragraphs">
+      <header>
+        HTML headings and paragraphs
+      </header>
+      <article>
+        <p>HTML headings and paragraphs are two of the most commonly used elements in creating web pages. Headings are used to provide a hierarchical structure to the content, making it easier for users to navigate and understand the information presented on the page.</p><p>Headings are typically denoted using the h1-h6 tags, with <span class="green">h1</span> being the most important and <span class="green">h6</span> being the least important.</p>
+        <p>On the other hand, paragraphs are used to separate blocks of text and create a visual break between different sections of content. Paragraphs are denoted using the <span class="green">&lt;p&gt;</span> tag, and they allow authors to present their text in a way that is easy to read and visually appealing.</p>
+        <p>It is important to use headings and paragraphs correctly, as they not only help users navigate the content but also assist in search engine optimization. Using headings and paragraphs properly can make a website more accessible, organized, and user-friendly.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_links_and_images">
+      <header>
+        HTML links and images
+      </header>
+      <article>
+        <p>HTML links and images are essential elements of web development that allow users to navigate between pages and enhance the visual appeal of webpages. </p>
+        <p>Links allow users to navigate between different web pages or sections of the same page by clicking on text or images. Links are created using the <span class="green">&lt;a&gt;</span> tag and the <span class="green">href</span> attribute, which specifies the URL of the page or file to be linked to.</p>
+        <code>&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt; to visit example website</code>
+        <p>This code creates a hyperlink that redirects the user to the example website when clicked. The text "<i>Click here</i>" is displayed to the user, and the URL to which the hyperlink points is specified by the <span class="green">href</span> attribute.</p>
+        <br>
+      <p>Images are used to make a webpage visually appealing and to enhance the user experience. Images can be inserted into an HTML document using the <span class="green">&lt;img&gt;</span> tag, with the <span class="green">source</span> attribute specifying the URL of the image file. The <span class="green">alt</span> attribute is also used to provide alternative text that is displayed if the image cannot be loaded or if the user is using an assistive technology.</p>
+<code>&lt;img src="example.jpg" alt="example image"&gt;</code>
+<br>
+<p>Links and images can be used together to create a more engaging and informative webpage. For example, an image can be linked to a relevant web page or article, providing more information on a particular topic. Proper use of links and images not only enhances the user experience but also makes the webpage more accessible and informative.</p>
+<code>&lt;a href="https://www.example.com"&gt;
+    &lt;img src="example.jpg" alt="example image"&gt;
+&lt;/a&gt;</code>
+<p>This code creates a hyperlink that is represented by an image. When the user clicks on the image, they are redirected to the example website. This technique is commonly used to create image galleries, product listings, and other visual elements that serve as links to other pages or content.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_lists">
+      <header>
+        HTML lists
+      </header>
+      <article>
+        <p>HTML lists are used to present information in an organized and structured manner. There are three types of lists that can be created in HTML: ordered lists, unordered lists, and definition lists.</p>
+        <p>An ordered list is a list where the items are numbered. It is created using the <span class="green">&lt;ol&gt;</span> tag, and each item in the list is represented by the <span class="green">&lt;li&gt;</span> tag. Here is an example code for an ordered list:</p>
+        <code>&lt;ol&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol></code>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<p>An unordered list is a list where the items are bulleted or unnumbered. It is created using the <span class="green">&lt;ul&gt;</span> tag, and each item in the list is represented by the <span class="green">&lt;li&gt;</span> tag. Here is an example code for an unordered list:</p>
+<code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code>
+<p><ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul></p>
+<p>A definition list is a list where each item has a term and a corresponding definition. It is created using the <span class="green">&lt;dl&gt;</span> tag, and each term and definition is represented by the <span class="green">&lt;dt&gt;</span> and <span class="green">&lt;dd&gt;</span> tags, respectively. Here is an example code for a definition list:</p>
+<code>&lt;dl&gt;
+    &lt;dt&gt;Term 1&lt;/dt&gt;
+    &lt;dd&gt;Definition 1&lt;/dd&gt;
+    &lt;dt&gt;Term 2&lt;/dt&gt;
+    &lt;dd&gt;Definition 2&lt;/dd&gt;
+    &lt;dt&gt;Term 3&lt;/dt&gt;
+    &lt;dd&gt;Definition 3&lt;/dd&gt;
+</dl></code>
+<dl>
+<dt>Term 1</dt>
+<dd>Definition 1</dd>
+<dt>Term 2</dt>
+<dd>Definition 2</dd>
+<dt>Term 3</dt>
+<dd>Definition 3</dd>
+</dl>
+<p>Proper use of HTML lists can improve the readability and accessibility of web pages. Lists can be nested within one another to create more complex structures, and they can also be styled using CSS to match the visual design of the webpage.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_forms">
+      <header>
+        HTML forms
+      </header>
+      <article>
+        <p>HTML forms are used to collect information from users on web pages. They provide a way for users to input data, such as text, numbers, and selections, and submit that data to a web server for processing. HTML forms consist of various form elements, including input fields, buttons, checkboxes, and dropdown menus.</p>
+        <p>To create a form in HTML, you use the <span class="green">&lt;form&gt;</span> tag, which defines the start of the form. The <span class="green">action</span> attribute specifies the URL where the form data will be sent, and the <span class="green">method</span> attribute specifies the HTTP method that will be used to send the data (either GET or POST).</p>
+        <p>Input fields are used to collect data from users. They can be created using various input types, such as text, number, email, date, and password. Here is an example code for a basic text input field:</p>
+        <code>&lt;label for="name"&gt;Name:&lt;/label&gt;
+&lt;input type="text" id="name" name="name"&gt;</code>
+<p>The <span class="green">&lt;label&gt;</span> element provides a label for the input field, and the for attribute associates the label with the input field. The <span class="green">&lt;input&gt;</span> element creates the input field, with the type attribute specifying the type of input field (in this case, a text field), and the <span class="green">id</span> and <span class="green">name</span> attributes providing unique identifiers for the input field.</p>
+<p>Other types of form elements that can be used to collect data from users:</p>
+<ul>
+  <li>Buttons</li>
+  <p class="form-list">These are created using the <span class="green">&lt;button&gt;</span> tag, with the type attribute specifying the type of button (e.g. <span class="green">submit</span>, <span class="green">reset</span>, or <span class="green">button</span>)</p>
+  <li>Radio buttons</li>
+  <p class="form-list">These allow users to select only one option from a set of choices. They are created using the <span class="green">&lt;input&gt;</span> tag with the <span class="green">type="radio"</span> attribute.</p>
+  <li>Checkboxes</li>
+  <p class="form-list">These also allow users to select only one option from a set of choices. They are created using the <span class="green">&lt;input&gt;</span> tag with the <span class="green">type="checkbox"</span> attribute.</p>
+  <li>Dropdown menus</li>
+  <p class="form-list">These allow users to select only one option from a set of choices. They are created using the <span class="green">&lt;select&gt;</span> tag with the <span class="green">&lt;option&gt;</span> tag used to specify each option in the list.</p>
+</ul>
+<p> Each type of input field has its own set of attributes and options, allowing for flexibility in the design and functionality of the form.
+</p>
+<p>Proper use of HTML forms can greatly enhance the usability and functionality of a web page, making it easier for users to interact with the page and providing valuable data to web servers for processing.</p>
+      </article>
+    </section>
+    <section class="main-section" id="what_is_CSS?">
+      <header>
+        what is CSS?
+      </header>
+      <article>
+        <p>CSS, or Cascading Style Sheets, is a stylesheet language used to define the presentation and layout of HTML documents.</p>
+        <p> CSS allows web developers to control the appearance of a web page by specifying styles for elements such as fonts, colors, backgrounds, and layouts. CSS can be used to create complex designs, such as multi-column layouts, responsive designs that adjust to different screen sizes, and animations and transitions.</p>
+      </article>
+    </section>
+    <section class="main-section" id="CSS_syntax_and_selectors">
+      <header>
+        CSS syntax and selectors
+      </header>
+      <article>
+        <p>CSS syntax consists of a set of rules that define how elements on a web page should be displayed.</p>
+        <p>The basic syntax of a CSS rule is as follows:</p>
+        <code class="css-code">selector {
+    property: value;
+}</code>
+<p>The selector specifies which HTML elements the rule applies to. The property defines the styling property that will be changed, such as color, font, or background. The value specifies the value for the property.</p>
+<p>CSS selectors are used to target specific HTML elements to apply styling to. There are several types of selectors:</p>
+<ul>
+  <li>Type selectors</li>
+  <p class="form-list">These target all instances of a specific HTML element, such as <span class="blue">&lt;p&gt;</span> for paragraphs or <span class="blue">&lt;h1&gt;</span> for headings</p>
+  <li>Class selectors</li>
+  <p class="form-list"> These target elements with a specific class attribute, specified with a <span class="blue">.</span> before the class name. For example, <span class="blue">.my-class</span> would target all elements with the class <span class="blue">my-class</span></p>
+  <li>ID selectors</li>
+  <p class="form-list">These target elements with a specific ID attribute, specified with a <span class="blue">#</span> before the ID name. For example, <span class="blue">#my-id</span> would target the element with the ID <span class="blue">my-id</span></p>
+  <li>Attribute selectors</li>
+  <p class="form-list">These target elements with a specific attribute value. For example, <span class="blue">[type="checkbox"]</span> would target all checkbox input fields</p>
+  <li>Pseudo-class selectors</li>
+  <p class="form-list">These target elements based on their state or position, such as <span class="blue">:hover</span> for when the user hovers over an element with their mouse</p>
+      </article>
+    </section>
+    <section class="main-section" id="CSS_box_model">
+      <header>
+        CSS box model
+      </header>
+      <article>
+        <p>The CSS box model is a concept that describes how HTML elements are represented as rectangular boxes on a web page. Each box has four main components:</p>
+        <ol>
+          <li>the content area</li>
+          <li>padding</li>
+          <li>border</li>
+          <li>margin</li>
+        </ol>
+        <p>The <span class="blue">content area</span> is the area where the actual content of the element is displayed, such as text or images. The size of the content area is determined by the width and height properties set in CSS.</p>
+        <p>The <span class="blue">padding</span> is the space between the content area and the border. It is used to add extra space between the content and the border, and can be adjusted using the padding property in CSS.</p>
+        <p>The <span class="blue">border</span> is a line that surrounds the element, separating it from other elements on the page. It can be styled using various properties in CSS, such as color, width, and style</p>
+        <p>The <span class="blue">margin</span> is the space between the border of the element and other elements on the page. It can be used to create space around an element, or to push it away from other elements on the page.</p>
+        <p>All of these components - the content area, padding, border, and margin - are included in the overall size of the box. This means that when you set the width or height of an element in CSS, you are actually setting the size of the entire box, including all of its components.</p>
+      </article>
+    </section>
+    <section class="main-section" id="CSS_colours_and_backgrounds">
+      <header>
+        CSS colours and backgrounds
+      </header>
+      <article>
+        <p>In CSS, colors are defined using a variety of methods, including color keywords, hexadecimal values, RGB values, and HSL values.</p>
+        <ul>
+          <li>Color keywords are predefined color names such as "<span class="red">red</span>" or "<span class="turquoise">turquoise</span>"</li>
+          <li>Hexadecimal values are six-digit codes that represent colors in the RGB color model (eg. <span class="pink">#ff3399</span>)</li>
+          <li>RGB values use a combination of red, green, and blue values (eg. <span class="purple">rgb(163, 26, 255)</span>)</li>
+          <li>HSL values use a combination of hue, saturation, and lightness (eg. <span class="orange">hsl(36, 100%, 50%)</span>)</li>
+        </ul>
+        <code class="css-code">h1 {
+color: <span class="red">red</span>;
+}
+.class {
+color: <span class="pink">#ff3399</span>;
+}
+#id {
+color: <span class="purple">rgb(163, 26, 255)</span>;
+}
+[type="attribute"] {
+color: <span class="orange">hsl(36, 100%, 50%)</span>;
+}
+</code>
+      <p>Backgrounds can be styled using CSS properties such as background-color, background-image, background-repeat, background-position, and background-attachment.</p>
+      <ul>
+        <li>The <span class="blue">background-color</span> property sets the color of an element's background</li>
+        <li>The <span class="blue">background-image</span> property sets an image to be used as the background</li>
+        <li>The <span class="blue">background-repeat</span> property controls how the image is repeated</li>
+        <li>The property of <span class="blue">background-position</span> can be used to adjust the position of the image</li>
+        <li>The <span class="blue">background-attachment</span> property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page)</li>
+      </ul>
+      <code class="css-code">body1 {
+  background-color: lightblue;
+  opacity: 0.4;
+}
+body2 {
+  background-image: url("paper.gif");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: fixed;
+}</code>
+      <p>Using colors and backgrounds effectively in CSS can greatly enhance the visual appeal of a web page. Choosing the right colors can help to convey the intended mood or message of the page, while background images can be used to add texture, depth, and visual interest.</p>
+      </article>
+    </section>
+    <section class="main-section" id="CSS_text_formatting">
+      <header>
+        CSS text formatting
+      </header>
+      <article>
+        <p>In CSS, text can be formatted using a variety of properties, including font-family, font-size, font-weight, font-style, text-align, text-decoration, text-transform, line-height and letter-spacing.</p>
+      <ul>
+        <li>The <span class="blue">font-family</span> property sets the font to be used for the text</li>
+        <li>The property of <span class="blue">font-size</span> sets the size of the font</li>
+        <li><span class="blue">Font-weight</span> determines the thickness or boldness of the text</li>
+        <li><span class="blue">Font-style</span> sets the style of the font, such as italic or oblique</li>
+        <li><span class="blue">Text-align</span> controls the alignment of the text within its container, with options such as left, center, right, or justify</li>
+        <li><span class="blue">Text-decoration</span> can be used to add decorations to the text, such as underline or strikethrough</li>
+        <li><span class="blue">Text-transform</span> can be used to transform the text to uppercase, lowercase, or capitalized</li>
+        <li>Other properties, such as <span class="blue">line-height</span> and <span class="blue">letter-spacing</span>, can be used to adjust the spacing and layout of the text</li>
+      </ul>
+      </article>
+    </section>
+    <section class="main-section" id="CSS_layout">
+      <header>
+        CSS layout
+      </header>
+      <article>
+        <p>CSS layout is the process of positioning and arranging HTML elements on a web page. There are several ways to achieve layout in CSS, including using floats, positioning, and flexbox.</p>
+        <p><span class="blue">Floats</span> are a CSS property that allows elements to be floated to the left or right of their container, allowing other elements to wrap around them. This technique is commonly used for creating multi-column layouts.</p>
+        <p><span class="blue">Positioning</span> is another CSS property that allows elements to be positioned in a specific location on the page, relative to the parent or to the viewport. This technique is useful for creating complex layouts and overlapping elements.</p>
+        <p><span class="blue">Flexbox</span> is a newer layout method that allows elements to be arranged in flexible rows and columns, with options for aligning and justifying content. This method is particularly useful for creating responsive layouts that adapt to different screen sizes.</p>
+        <p>Other layout techniques include using <span class="blue">CSS grid</span>, which allows for a more complex and precise grid-based layout, and using <span class="blue">media queries</span> to create responsive layouts that adapt to different screen sizes</p>
+      </article>
+    </section>
+    <br><br><br>
+    <p class="credit"><span class="green">{</span>created by @meganmirav<span class="blue">}</span>
+  </main>
+</body>
