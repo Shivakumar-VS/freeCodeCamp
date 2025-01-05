@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recipe Page</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Pizza</h1>
+  <p>Pizza is incredibly tasty, with its crispy crust, savory tomato sauce, melted cheese, and the endless variety of flavorful toppings that can cater to any taste preference. Its combination of textures and flavors makes it a universal favorite.</p>
+  <img src="https://media.istockphoto.com/id/1389527253/photo/vegetarian-pizza-above-view-minimalist-on-a-blue-background.jpg?s=612x612&w=0&k=20&c=AVArR_DcD2Kv7mWGZJsLCR-MrFKP8E3vGB07nfdqD7A=" alt="pizza image">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>Pizza Dough -</li>
+    <li>Tomato Sauce </li>
+    <li>Cheese </li>
+    <li>Toppings</li>
+<h2>Instructions</h2>
+<ol>
+   <li>Prepare the pizza dough and let it rise until soft and stretchy.</li>
+   <li>Spread tomato sauce evenly over the rolled-out dough.</li>
+  <li>Sprinkle cheese generously and add your favorite toppings.</li>
+  <li>Bake in a preheated oven at 220°C (425°F) until the crust is golden and cheese bubbles.</li>
+</ol> 
+</body>
+</html>
