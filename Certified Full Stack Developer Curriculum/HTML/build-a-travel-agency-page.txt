@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Travel Agency</title>
+  </head>
+  <body>
+    <h1>Discover INDIA</h1>
+    <p>India is a land of breathtaking beauty, enriched by its diverse landscapes, from the snow-capped Himalayas to the serene backwaters of Kerala. Its vibrant culture reflects a harmonious blend of traditions, languages, and festivals.</p>
+    
+    <h2>Packages</h2>
+    <p>We offer an extensive range of holiday solutions to accommodate the needs of all our clients. From daily excursions in the most beautiful cities, to thorough tours of hidden villages and medieval towns to discover India's lesser-known sides.</p>
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+    
+    <h2>Top Itineraries</h2>
+    
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=" alt="Taj Mahal">
+      </a>
+      <figcaption>Taj Mahal</figcaption>
+    </figure>
+    
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://media.istockphoto.com/id/1160975059/photo/qutub-minar-and-its-monuments-delhi.jpg?s=612x612&w=0&k=20&c=nCQpmVYsfFYpMg8i-6kQkuHfQ9P-5IXGxyADVItiD_k=" alt="Qutub Minar">
+      </a>
+      <figcaption>Qutub Minar</figcaption>
+    </figure>
+    
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://media.istockphoto.com/id/172124032/photo/mysore-palace-at-dusk.jpg?s=612x612&w=0&k=20&c=paO74C_dVsY14IbK0RNqs0TD-lSteQy-AW5CnQFEb_4=" alt="Mysore Palace">
+      </a>
+      <figcaption>Mysore Palace</figcaption>
+    </figure>
+    
+  </body>
+</html>
