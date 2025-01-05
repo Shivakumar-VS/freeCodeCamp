@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main>
+    <h1>FRONT END PROJECTS</h1>
+    <p>Frontend projects are an excellent way to showcase creativity, technical skills, and a deep understanding of web technologies. These projects involve building the user interface (UI) of websites or applications, focusing on design, responsiveness, and user experience (UX). They typically utilize HTML for structure, CSS for styling, and JavaScript for interactivity, often enhanced with frameworks like React, Angular, or Vue.js. Whether it's a personal portfolio, an interactive web app, or a responsive e-commerce site, frontend projects help developers demonstrate their ability to create visually appealing and user-friendly solutions.</p>
+    <section>
+        <h2>Building a Calculator</h2>
+        <p>
+Our calculator website offers a sleek, user-friendly interface for performing quick and accurate calculations. From basic arithmetic to advanced functions, it’s designed to meet all your mathematical needs. Fully responsive and easy to navigate, it works seamlessly across devices. Simplify your calculations with just a click!</p>
+<iframe src="https://youtu.be/TXCj39dGLlY?si=QrfYcsjhIhtzNWDo" title="calculator webiste" height="350px" width="350px"></iframe>
+    </section>
+     <section>
+         <h2>Building a product landing page</h2>
+         <p>
+Welcome to our product landing page, where innovation meets simplicity. Discover our top-quality products designed to enhance your lifestyle with style and efficiency. Explore features, reviews, and exclusive offers—all in one place. Experience the future of shopping with us today!</p>
+<iframe src="https://youtu.be/mLVvkG4sgtY?si=oyPCMHD_V9aYt85S" title="landing-page" height="350px" width="350px"></iframe>
+     </section>
+      <section>
+          <h2>Building a gaming website</h2>
+          <p>Dive into the ultimate gaming experience with our action-packed website! Explore the latest games, reviews, and tips tailored for every gamer. From casual fun to intense challenges, we’ve got something for everyone. Level up your gaming journey with us today!
+</p>
+          <iframe src="https://youtu.be/FJ9UtGfVkcI?si=1VMA8UsygwqtUHFT" title="gaming-web" height="350px" width="350px"></iframe>
+      </section>
+    </main>
+</body>
+
+</html>
