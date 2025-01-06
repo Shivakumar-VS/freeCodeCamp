@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+<section> <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Cuboid">
+    </section>
+    <section>
+         <h2>Payment Information</h2>
+        <form id="card-name" name="card-name">
+            <input id="card-name" name="card-name" type="submit" required aria-required="true">
+            <input id="card-number" name="card-number" required aria-required="true">
+            <label for="card-number"></label>
+        </form>
+        </section>
+       
+       
+</body>
+
+</html>
