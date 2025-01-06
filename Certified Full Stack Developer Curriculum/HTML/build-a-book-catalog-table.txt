@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Publication Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Book 1</td>
+      <td>Author 1</td>
+      <td>Fiction</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Book 2</td>
+      <td>Author 2</td>
+      <td>Non-Fiction</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Book 3</td>
+      <td>Author 3</td>
+      <td>Science</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Book 4</td>
+      <td>Author 4</td>
+      <td>History</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>Book 5</td>
+      <td>Author 5</td>
+      <td>Biography</td>
+      <td>2022</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Total Books: 5</td>
+    </tr>
+  </tfoot>
+</table>
+</html>
