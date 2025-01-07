@@ -1,0 +1,76 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p></p>
+<div class="business-card">
+    <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="Profile-pic">
+    <p class="full-name">Name : Shivakumar V S</p>
+     <p class="designation">Designation : Web Developer</p>
+      <p class="company">Company : KAPMC</p>
+      <hr></hr>
+      <p>Shivaganxxxx4@gmail.com</p>
+       <p>953501xxxx</p>
+       <a href="#">Portfolio</a>
+       <hr></hr>
+       <div class="social-media">
+           <h2>Connect with me</h2>
+           <a href="#">Twitter</a>
+           <a href="#">LinkedIn</a>
+           <a href="#">GitHub</a>
+</div> 
+</body>
+
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body
+{
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.business-card{
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-image
+{
+  height: 100%;
+  width : 100%
+}
+hr
+{
+  border: 1px dashed slategray;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+** end of undefined **
+
