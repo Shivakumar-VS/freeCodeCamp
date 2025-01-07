@@ -1,4 +1,4 @@
-** start of undefined **
+** start of HTML **
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,9 +31,9 @@
 </html>
 
 
-** end of undefined **
+** end of HTML **
 
-** start of undefined **
+** start of CSS**
 
 body
 {
@@ -72,5 +72,5 @@ a:hover {
   color: red;
 }
 
-** end of undefined **
+** end of CSS **
 
