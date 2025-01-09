@@ -1,0 +1,96 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="blog-post-card">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="computer " class="post-img">
+        <div class="blog-post-card">
+            <div class="post-content">
+            <h2 class="post-title">Learn App Development in 2025</h2>
+            <p class="post-excerpt">Stay ahead of the curve with the latest trends in web development. Discover what's new and exciting in 2025</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #eaeaea;
+}
+.blog-post-card{
+  background-color: white;
+  border-radius: 20px;
+  width : 500px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.post-img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 50%;
+  border-bottom: 20px;
+}
+.read-more{
+  background-color:#1225 ;
+  padding: 20px;
+  border-radius: 30px;
+    margin: 10px 0; 
+    display: inline-block; 
+    text-decoration: none;
+    color: #007BFF; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+.read-more:hover{
+  background-color:#1987;
+}
+.post-img {
+    width: 100%; 
+    display: block; 
+    border-bottom: 2px solid #ccc; 
+}
+.post-title {
+    margin: 10px 0; 
+    color: #333; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+.post-excerpt {
+    margin: 10px 0; 
+    color: #555;
+    font-size: 1rem; 
+    line-height: 1.5; 
+}
+.post-content{
+  padding: 20px;
+}
+
+
+** end of undefined **
+
