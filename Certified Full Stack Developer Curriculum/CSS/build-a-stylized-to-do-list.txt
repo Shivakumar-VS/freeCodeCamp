@@ -1,0 +1,104 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="todo-list">
+  <!-- First List Item -->
+  <li>
+    <input type="checkbox" id="item1">
+    <label for="item1">Item 1</label>
+    <ul class="sub-item">
+      <li>
+        <a href="https://example.com" class="sub-item-link" target="_blank">Sub-item 1</a>
+      </li>
+    </ul>
+  </li>
+
+  <!-- Second List Item -->
+  <li>
+    <input type="checkbox" id="item2">
+    <label for="item2">Item 2</label>
+    <ul class="sub-item">
+      <li>
+        <a href="https://example.com" class="sub-item-link" target="_blank">Sub-item 2</a>
+      </li>
+    </ul>
+  </li>
+
+  <!-- Third List Item -->
+  <li>
+    <input type="checkbox" id="item3">
+    <label for="item3">Item 3</label>
+    <ul class="sub-item">
+      <li>
+        <a href="https://example.com" class="sub-item-link" target="_blank">Sub-item 3</a>
+      </li>
+    </ul>
+  </li>
+
+  <!-- Fourth List Item -->
+  <li>
+    <input type="checkbox" id="item4">
+    <label for="item4">Item 4</label>
+    <ul class="sub-item">
+      <li>
+        <a href="https://example.com" class="sub-item-link" target="_blank">Sub-item 4</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+.todo-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    background-color: #c4ffff
+}
+
+.sub-item-link {
+    text-decoration: none; 
+    color: blue; 
+    transition: color 0.3s, outline 0.3s; 
+}
+
+.sub-item-link:visited {
+    color: purple;
+}
+
+.sub-item-link:hover {
+    color: green;
+}
+
+.sub-item-link:focus {
+    outline: 2px solid orange; 
+    outline-offset: 2px; 
+}
+.sub-item-link:active {
+    color: red;
+}
+
+
+** end of undefined **
+
