@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="yugadi-event">
+    <h1>YUGADI</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Holi Festival</h2>
+      <p>Join us for the first annual Holi Festival!<b><br>
+When:</b> October 3rd <b>Where: </b>BhagathSingh Park</p>
+      </section><hr>
+      <section>
+         <h2>Festival Highlights</h2>
+         <ul>
+           <li>Rainbow Rock Obedience Show
+</li>
+           <li>Best Dressed Rock in Colors Contest</li>
+           <li>Pet Rock Color Splash Racing</li>
+           <li>
+Holi Rock Beauty Pageant</li>
+           </ul>
+        </section>
+        <hr>
+         <p>&copy; 2025 Pet Rock Festival | All rights reserved</p>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100%;
+  min-height: calc(100vh - 100px);
+}
+img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+  text-align: center;
+  display: block;
+}
+h2{
+  text-align: center;
+  display: block;
+}
+p{
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+hr{
+   border-top: 3px solid red;
+    width: 80%;
+  margin: auto; 
+}
+section {
+  width: 90%;
+  margin: auto; 
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;              
+  display: flex;         
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;   
+}
+
+li {
+  text-align: center;     
+  padding: 10px;     
+  font-size: 18px;
+    font-weight: bold;
+}
+
+
+** end of undefined **
+
