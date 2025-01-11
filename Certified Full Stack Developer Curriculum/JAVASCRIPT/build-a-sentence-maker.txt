@@ -1,0 +1,33 @@
+// Declare and assign variables for the first story
+let adjective = "Beautiful";
+let noun = "Book";
+let verb = "run";
+let place = "Park";
+let adjective2 = "Tall";
+let noun2 = "Tree";
+
+// Create the first story using the provided format
+const firstStory = "Once upon a time, there was a(n) " + adjective + " " + noun + 
+                   " who loved to eat " + noun2 + 
+                   ". The " + noun + 
+                   " lived in a " + place + 
+                   " and had " + adjective2 + 
+                   " nostrils that blew fire when it was " + verb + ".";
+console.log("First story: " + firstStory);
+
+// Reassign variables for the second story
+adjective = "Brave";
+noun = "Knight";
+verb = "dancing";
+place = "Castle";
+adjective2 = "Golden";
+noun2 = "Treasure";
+
+// Create the second story using the provided format
+const secondStory = "Once upon a time, there was a(n) " + adjective + " " + noun + 
+                    " who loved to eat " + noun2 + 
+                    ". The " + noun + 
+                    " lived in a " + place + 
+                    " and had " + adjective2 + 
+                    " nostrils that blew fire when it was " + verb + ".";
+console.log("Second story: " + secondStory);
