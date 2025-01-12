@@ -1,0 +1,91 @@
+/* Styling for header image */
+#header-img {
+    display: block;
+    height: 150px;
+    width: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    margin-top: 150px
+  }
+  
+  /* Flexbox for navigation bar */
+  #nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    margin-top: 140px; /* Adjust space for fixed navbar and logo */
+    padding: 20px;
+  }
+  
+  section {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+  
+  section h1, section h2 {
+    color: #333;
+  }
+  
+  /* Form Section */
+  #form {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input[type="email"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design with Media Query */
+  @media (max-width: 768px) {
+    #nav-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* Adjusting form input width on smaller screens */
+    #form input {
+      width: 80%;
+    }
+  }
+  
