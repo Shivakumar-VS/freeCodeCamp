@@ -1,0 +1,56 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="color-grid">
+        <div class="color-box color1"></div>
+        <div class="color-box color2"></div>
+        <div class="color-box color3"></div>
+        <div class="color-box color4"></div>
+        <div class="color-box color5"></div>
+    </div>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.color-grid {
+    display: flex;
+    gap: 10px;
+}
+
+/* General styling for color boxes */
+.color-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Color styles */
+.color1 { background-color: #3498db; } /* Hexadecimal */
+.color2 { background-color: rgb(255, 99, 71); } /* RGB */
+.color3 { background-color: yellowgreen; } /* Predefined Color */
+.color4 { background-color: hsl(200, 80%, 50%); } /* HSL */
+.color5 { background-color: orange; } /* Any other color */
+
+
+** end of undefined **
+
