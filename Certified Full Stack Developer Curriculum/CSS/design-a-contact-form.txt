@@ -1,0 +1,82 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Contact us</h2>
+            <label for="name" >Name: </label><br>
+            <input type="text" id="name" name="fullname" required><br>
+            <label for="email" >Email: </label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="textarea" required></textarea><br>
+            <button type="submit">Submit</button><br>
+        </form>
+    </div>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  display: flex
+;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #83a4d4, #b6fbff);
+    font-family: Arial, sans-serif;
+    text-align:center;
+}
+.form-container {
+  border-radius: 8px;
+  padding: 2px;
+  width: 50%;
+  margin: auto;
+  display: block;
+  box-shadow: 5px 5px 5px 5px gray;
+  background-color: #ffffff
+}
+label{
+  margin: auto;
+  color: black;
+  
+}
+h2{
+  text-align:center;
+}
+input{
+  width:95%;
+  padding: 5px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+textarea{
+  width: 95%;
+  padding: 3px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+button{
+  font-size: 15px;
+  background-color: green
+}
+button:hover{
+  background-color: red;
+}
+
+** end of undefined **
+
