@@ -1,29 +1,22 @@
-NUMBER_OF_DISKS = 3
-number_of_moves = 2**NUMBER_OF_DISKS - 1
-rods = {
-    'A': list(range(NUMBER_OF_DISKS, 0, -1)),
-    'B': [],
-    'C': []
-}
+NUMBER_OF_DISKS = 5
+A = list(range(NUMBER_OF_DISKS, 0, -1))
+B = []
+C = []
 
 def move(n, source, auxiliary, target):
-    # display starting configuration
-    print(rods)
-    for i in range(number_of_moves):
-        remainder = (i + 1) % 3
-        if remainder == 1:
-            print(f'Move {i + 1} allowed between {source} and {target}')
-            forward = False
-            if not rods[target]:
-                forward = True
-            elif rods[source] and rods[source][-1] < rods[target][-1]:
-                forward = True
-            if forward:
-                print(f'Moving disk {rods[source][-1]} from {source} to {target}')
-        elif remainder == 2:
-            print(f'Move {i + 1} allowed between {source} and {auxiliary}')
-        elif remainder == 0:
-            print(f'Move {i + 1} allowed between {auxiliary} and {target}')
-
+    if n <= 0:
+        return
+        # move n - 1 disks from source to auxiliary, so they are out of the way
+    move(n - 1, source, target, auxiliary)
+        
+        # move the nth disk from source to target
+    target.append(source.pop())
+        
+        # display our progress
+    print(A, B, C, '\n')
+        
+        # move the n - 1 disks that we left on auxiliary onto target
+    move(n - 1,  auxiliary, source, target)
+              
 # initiate call from source A to target C with auxiliary B
-move(NUMBER_OF_DISKS, 'A', 'B', 'C')
+move(NUMBER_OF_DISKS, A, B, C)
