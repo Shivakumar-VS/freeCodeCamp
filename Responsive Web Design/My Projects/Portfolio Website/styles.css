@@ -1,0 +1,397 @@
+/* Color Schemes */
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #222222;
+    --text-dark-strong: #000000;
+    --text-dark-normal: #8d8d8d;
+    --text-light-strong: #ffffff;
+    --text-light-normal: #aaaaaa;
+    --text-weak: #888888;
+    --style-dark: #333333;
+    --style-dark-grey: #5c5c5c;
+    --style-grey: #777777;
+    --style-light-grey: #afafaf;
+    --style-light: #dadada;
+}
+
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic setup */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+
+    color: var(--text-dark-normal);
+    background-color: var(--bg-light);
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 1;
+
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5rem;
+
+    padding-bottom: 2rem;
+
+    text-transform: uppercase;
+
+    color: var(--text-dark-strong);
+}
+
+h3 {
+    font-size: 1.8rem;
+
+    color: var(--text-dark-strong);
+}
+
+li {
+    display: block;
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    color: var(--text-dark-normal);
+}
+
+strong {
+    color: var(--text-dark-strong);
+}
+
+img {
+    width: 100%;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 0 4rem;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.header-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    letter-spacing: 0.3em;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+
+    padding: 0.5rem 1.5rem;
+
+    text-transform: uppercase;
+
+    color: var(--text-light-strong);
+    border-radius: 40px;
+    background-color: var(--bg-dark);
+}
+
+/* Navbar */
+#navbar {
+    font-weight: 700;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    text-transform: uppercase;
+
+    border-color: var(--style-light);
+    border-bottom: 3px solid;
+    background-color: var(--bg-light);
+}
+
+#navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar a {
+    display: block;
+
+    padding: 1rem 1rem;
+}
+
+#navbar a:hover {
+    color: var(--text-light-strong);
+    background-color: var(--bg-dark);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+/* Welcome Section */
+#welcome-section {
+    height: 100vh;
+    padding: 25vh 0 25vh 0;
+
+    background: no-repeat url("../img/showcase-img.jpg") center / cover;
+}
+
+#welcome-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    line-height: 1;
+;
+
+    text-transform: uppercase;
+}
+
+/* Projects Section*/
+#projects {
+    padding: 3rem 0;
+}
+
+.project-container {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-rows: 350px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.project-tile {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.project-tile .project-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+
+    transition: all 0.5s;
+
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.project-tile .project-text h3 {
+    transition: all 0.5s;
+    transform: scale(0);
+
+    color: var(--text-light-strong);
+}
+
+.project-tile a:hover .project-text {
+    transform: scale(1);
+
+    opacity: 1;
+}
+
+.project-tile a:hover .project-text h3 {
+    transform: scale(1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    padding: 0;
+
+    text-transform: initial;
+}
+
+#contact p {
+    font-size: 1.5rem;
+}
+
+#contact .btn {
+    margin: 2rem 0;
+}
+
+#contact .container {
+    flex-direction: column;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.icons a {
+    margin-right: 2rem;
+}
+
+.icons a:last-of-type {
+    margin-right: 0;
+}
+
+
+/* Footer */
+footer {
+    padding: 3rem 0;
+
+    color: var(--text-light-normal);
+    background-color: var(--bg-dark);
+}
+
+footer .container {
+    flex-direction: column;
+}
+
+footer strong {
+    color: var(--text-light-strong);
+}
+
+footer .brand {
+    line-height: 1.2;
+
+    margin-bottom: 2rem;
+} 
+
+footer .brand > p {
+    letter-spacing: 0.3em;
+}
+
+
+
+
+/* Media queries desktop first */
+
+/* Desktop 1800px */
+@media only screen and (max-width: 1800px) {
+    .project-container {
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Desktop 1200px */
+@media only screen and (max-width: 1200px) {
+    .project-container {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet 768px */
+@media only screen and (max-width: 768px) {
+    .project-container {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .header-text {
+        font-size: 1.5rem;
+
+        letter-spacing: 0.2em;
+    }
+    .sub-heading {
+        font-size: 2rem;
+    }
+}
+
+/* Phone 568px */
+@media only screen and (max-width: 568px) {
+    body {
+        line-height: 1.2;
+    }
+    #navbar ul {
+        display: none;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+
+        padding-bottom: 1rem;
+    }
+    #contact h2 {
+        padding-bottom: 0.5rem;
+    }
+    .header-text {
+        font-size: 1.2rem;
+
+        letter-spacing: 0.1em;
+    }
+    .sub-heading {
+        font-size: 1.5rem;
+    }
+    #projects,
+    #contact {
+        padding: 1.5rem 0;
+    }
+    footer {
+        padding: 1rem 0;
+    }
+    footer .brand {
+        margin-bottom: 1rem;
+    }
+    .project-container {
+        grid-auto-rows: 275px;
+    }
+}
+
+@media (hover: none) {
+    .project-tile .project-text {
+        top: 100%;
+        left: 0;
+
+        display: block;
+
+        height: auto;
+        padding: 0.5rem 1rem;
+
+        transform: translateY(-100%);
+
+        opacity: 1;
+    }
+    .project-tile .project-text h3 {
+        font-size: 1.3rem;
+
+        transform: scale(1);
+    }
+}
