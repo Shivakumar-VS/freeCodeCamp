@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 80%;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
