@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 /* Container box */
@@ -15,7 +16,7 @@ body {
   background-color: #ffffff;
   padding: 30px 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(46, 7, 105, 0.753);
   text-align: center;
 }
 
