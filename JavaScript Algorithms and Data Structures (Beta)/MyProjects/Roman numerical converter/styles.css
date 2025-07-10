@@ -1,30 +1,40 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #f3f3f3;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
   margin: 0;
-  padding: 2rem;
+  padding: 2rem;  
 }
 
 .container {
-  background: white;
+  background: #0a0f1f;
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.896);
   max-width: 400px;
   margin: auto;
 }
-
+h1{
+  color: #fcd34d
+}
 input, button {
   padding: 10px;
   font-size: 1rem;
   margin-top: 1rem;
   width: 80%;
+  border-radius: 8px;
+}
+button {
+  background-color:#ffffff;
+  color: #1f2937;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #output {
   margin-top: 20px;
   font-size: 1.3rem;
   font-weight: bold;
-  color: #333;
+  color: #0146b6;
 }
