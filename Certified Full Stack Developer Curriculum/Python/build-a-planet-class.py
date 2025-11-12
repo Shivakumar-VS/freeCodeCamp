@@ -1,5 +1,3 @@
-** start of main.py **
-
 class Planet:
     def __init__(self, name, planet_type, star):
 
@@ -30,5 +28,5 @@ print(planet_1.orbit())
 print(planet_2.orbit())
 print(planet_3.orbit())
 
-** end of main.py **
+
 
