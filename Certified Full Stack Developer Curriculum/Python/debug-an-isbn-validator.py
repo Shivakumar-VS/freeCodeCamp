@@ -1,4 +1,4 @@
-** start of main.py **
+
 
 def validate_isbn(isbn, length):
     if length == 10:
@@ -107,5 +107,4 @@ def main():
 # main()
 
 
-** end of main.py **
 
