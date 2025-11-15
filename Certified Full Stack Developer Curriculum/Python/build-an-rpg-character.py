@@ -1,4 +1,4 @@
-** start of main.py **
+# ** start of main.py **
 
 full_dot = '●'
 empty_dot = '○'
@@ -38,5 +38,5 @@ def create_character(name, strength, intelligence, charisma):
 
     return result
 
-** end of main.py **
+# ** end of main.py **
 
