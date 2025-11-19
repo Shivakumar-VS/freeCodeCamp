@@ -53,7 +53,5 @@ class GameCharacter:
             f"Health: {self.health}\n"
             f"Mana: {self.mana}"
         )
-
-
 # ** end of main.py **
 
