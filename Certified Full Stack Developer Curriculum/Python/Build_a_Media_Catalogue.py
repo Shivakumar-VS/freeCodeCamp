@@ -87,12 +87,11 @@ try:
     catalogue.add(movie1)
     movie2 = Movie('Inception', 2010, 'Christopher Nolan', 148)
     catalogue.add(movie2)
-
     series1 = TVSeries('Scrubs', 2001, 'Bill Lawrence', 24, 9, 182)
     catalogue.add(series1)
     series2 = TVSeries('Breaking Bad', 2008, 'Vince Gilligan', 47, 5, 62)
     catalogue.add(series2)
-
+    
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
