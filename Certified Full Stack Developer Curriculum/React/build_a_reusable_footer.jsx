@@ -6,7 +6,7 @@ export const Footer = () => {
       <li><a href="#">Home</a></li>
       <li><a href="#">Services</a></li>
     </ul>
-
+    
     <ul>
       <li><a href="#">About</a></li>
       <li><a href="#">Team</a></li>
