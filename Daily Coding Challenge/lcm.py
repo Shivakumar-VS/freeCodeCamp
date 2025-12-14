@@ -7,8 +7,5 @@ def gcd(a, b):
 
 def lcm(a, b):
     return abs(a * b) //gcd(a,b)
-
-
-
 # ** end of main.py **
 
