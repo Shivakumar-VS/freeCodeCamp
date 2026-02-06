@@ -1,0 +1,29 @@
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
+    ports:
+      - "9030:3306"
+    volumes:
+      - mysqldb-data:/var/lib/mysql
+
+  backend:
+    depends_on:
+      - db
+    build:
+      context: .
+      args:
+        USER_UID: ${USER_UID}
+        WP_PATH: ${WP_PATH}
+    environment:
+      VSCODE_WORKSPACE: "${WP_PATH}"
+    ports:
+      - "8080:8080"
+      - "80:80"
+    volumes:
+      - "./..:/workspace"
+
+volumes:
+  mysqldb-data:

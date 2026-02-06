@@ -1,0 +1,88 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feature Selection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Feature Selection</h1>
+
+  <div class="feature-card-container">
+
+    <label class="feature-card">
+      <input type="checkbox">
+      Dark Mode
+    </label>
+
+    <label class="feature-card">
+      <input type="checkbox">
+      Email Notifications
+    </label>
+
+    <label class="feature-card">
+      <input type="checkbox">
+      Auto Backup
+    </label>
+
+  </div>
+
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+/* Container styling */
+.feature-card-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Feature card styling */
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+/* Checkbox selector */
+.feature-card input[type="checkbox"] {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #555;
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+/* Checked state */
+.feature-card input[type="checkbox"]:checked {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+/* Checkmark */
+.feature-card input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+** end of styles.css **
+

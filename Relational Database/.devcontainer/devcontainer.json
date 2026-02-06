@@ -1,0 +1,47 @@
+// More info: https://containers.dev/implementors/json_reference/
+{
+	"name": "WP & MySQL",
+
+	"service": "backend",
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"initializeCommand": [
+		"bash",
+		".devcontainer/init.sh",
+		"/var/www/html/wp-content/themes/${localWorkspaceFolderBasename}"
+	],
+	"remoteUser": "vscode",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DEVSENSE.phptools-vscode",
+				"johnbillion.vscode-wordpress-hooks",
+                "yogensia.searchwpdocs"
+			],
+			"launch": {
+				"configurations": [
+					{
+						"name": "Launch Built-in server & Profile",
+						"type": "php",
+						"request": "launch",
+						"runtimeArgs": [
+							"-S",
+							"localhost:8888",
+							"-t",
+							"/var/www/html"
+						],
+						"profile": true
+					},
+					{
+						"name": "Listen for Xdebug",
+						"detail": "Waits for requests to debug.",
+						"type": "php",
+						"request": "launch"
+					}
+				]
+			}
+		}
+	}
+
+}

@@ -1,0 +1,91 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Newspaper Article</title>
+
+  <!-- Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="newspaper">
+
+  <div class="name">Daily Tech Times</div>
+
+  <div class="date">February 6, 2026</div>
+
+  <div class="headline">Students Embrace Coding for a Better Future</div>
+
+  <div class="sub-headline">Learning programming opens doors to new careers</div>
+
+  <div class="author">By Raj Shivakumar</div>
+
+  <p class="text">
+    Coding has become one of the most important skills in today’s digital world. Students are learning programming to improve their career opportunities and build real-world projects.
+  </p>
+
+  <p class="text">
+    With free online platforms and practice-based learning, even beginners can start their journey toward becoming professional developers.
+  </p>
+
+</div>
+
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+html {
+  font-size: 24px;
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+** end of styles.css **
+
